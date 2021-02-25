@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: black;
+}
+div{
+  height: 33.33vh;
+}
+
+input[type=number]{
+  width: 100%;
+  height: 100%;
+  background: black;
+  font-family: Asap,sans-serif;
+  color: white;
+  font-size: 10em;
+  text-align: center;
+  border: 0;
+}
+#farhenheit{
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+::placeholder{
+  color: #222222;
+}
